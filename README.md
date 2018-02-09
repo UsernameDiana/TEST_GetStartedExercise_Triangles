@@ -7,14 +7,14 @@ _The program reads three integer values from an input dialog. The three values r
 
 :white_check_mark: Step 1: Design test cases (on paper) for both successful and unsuccessful scenarios.
 
-| TEST CASE|       INPUT      |          EXPECTED        |          ACTUAL          |
-|----------|------------------|--------------------------|--------------------------|
-|    1     |      1,2,3       |          scalene         |          scalene         |
-|    2     |      3,2,3       |          isosceles       |         isosceles        |
-|    3     |      3,3,3       |          equilateral     |        equilateral       |
-|    4     |   1,2,"hello"    |          invalid         |       invalid : NaN      |
-|    5     |       1,2        |          invalid         |   invalid : undefined    |
-|    6     |       1,0,2      |          invalid         | invalid : side length 0  |
+| TEST CASE|       INPUT      |          EXPECTED        |          ACTUAL          |         STATUS           |
+|----------|------------------|--------------------------|--------------------------|--------------------------|
+|    1     |      1,2,3       |          scalene         |          scalene         |         passed           |
+|    2     |      3,2,3       |          isosceles       |         isosceles        |         passed           |
+|    3     |      3,3,3       |          equilateral     |        equilateral       |         passed           |
+|    4     |   1,2,"hello"    |          invalid         |       invalid : NaN      |         passed           |
+|    5     |       1,2        |          invalid         |   invalid : undefined    |         passed           |
+|    6     |       1,0,2      |          invalid         | invalid : side length 0  |         passed           |
 
 :white_check_mark: Step 2: Design and implement the Triangle program in a programming language (e.g. Java or C#)
   - you don't have to write unit tests, but you may do so :)
@@ -31,4 +31,4 @@ _The program reads three integer values from an input dialog. The three values r
  
  :white_check_mark: Have an IDE installed on your computer
  
- :white_check_mark: REad Black chap. 3
+ :white_check_mark: Read Black chap. 3
